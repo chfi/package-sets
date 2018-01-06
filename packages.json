@@ -913,6 +913,13 @@
     "repo": "https://github.com/purescript/purescript-lazy.git",
     "version": "v3.0.0"
   },
+  "lcg": {
+    "dependencies": [
+      "random"
+    ],
+    "repo": "https://github.com/purescript/purescript-lcg.git",
+    "version": "v1.0.0"
+  },
   "leibniz": {
     "dependencies": [
       "prelude",
