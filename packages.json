@@ -181,6 +181,15 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v3.0.0"
   },
+  "bigints": {
+    "dependencies": [
+      "integers",
+      "maybe",
+      "strings"
+    ],
+    "repo": "git://github.com/sharkdp/purescript-bigints.git",
+    "version": "v3.5.0"
+  },
   "bytestrings": {
     "dependencies": [
       "arrays",
@@ -368,18 +377,18 @@
     "repo": "https://github.com/paf31/purescript-day.git",
     "version": "v9.2.0"
   },
-  "decimals": {
-    "dependencies": [
-      "maybe"
-    ],
-    "repo": "https://github.com/sharkdp/purescript-decimals.git",
-    "version": "v3.0.0"
-  },
   "debug": {
     "dependencies": [
       "prelude"
     ],
     "repo": "https://github.com/garyb/purescript-debug.git",
+    "version": "v3.0.0"
+  },
+  "decimals": {
+    "dependencies": [
+      "maybe"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-decimals.git",
     "version": "v3.0.0"
   },
   "distributions": {
@@ -1495,6 +1504,17 @@
     "repo": "https://github.com/paf31/purescript-pairing.git",
     "version": "v4.0.0"
   },
+  "pairs": {
+    "dependencies": [
+      "console",
+      "distributive",
+      "foldable-traversable",
+      "monoid",
+      "quickcheck"
+    ],
+    "repo": "git://github.com/sharkdp/purescript-pairs.git",
+    "version": "v5.0.0"
+  },
   "parallel": {
     "dependencies": [
       "transformers",
@@ -1832,6 +1852,15 @@
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v0.2.6"
+  },
+  "record-extra": {
+    "dependencies": [
+      "lists",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-record-extra.git",
+    "version": "v0.3.0"
   },
   "record-fold": {
     "dependencies": [
