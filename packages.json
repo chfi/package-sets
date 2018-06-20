@@ -127,6 +127,26 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v4.0.0"
   },
+  "bigints": {
+    "dependencies": [
+      "integers",
+      "maybe",
+      "strings"
+    ],
+    "repo": "git://github.com/sharkdp/purescript-bigints.git",
+    "version": "v4.0.0"
+  },
+  "canvas": {
+    "dependencies": [
+      "effect",
+      "functions",
+      "maybe",
+      "exceptions",
+      "arraybuffer-types"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-canvas.git",
+    "version": "v4.0.0"
+  },
   "catenable-lists": {
     "dependencies": [
       "control",
@@ -233,6 +253,28 @@
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "v6.0.0"
   },
+  "colors": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "lists",
+      "partial",
+      "strings"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-colors.git",
+    "version": "v5.0.0"
+},
+  "drawing": {
+    "dependencies": [
+      "canvas",
+      "lists",
+      "math",
+      "integers",
+      "colors"
+    ],
+    "repo": "https://github.com/paf31/purescript-drawing.git",
+    "version": "v4.0.0"
+  },
   "effect": {
     "dependencies": [
       "prelude"
@@ -285,6 +327,19 @@
     "repo": "https://github.com/purescript/purescript-exists.git",
     "version": "v4.0.0"
   },
+  "filterable": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "console",
+      "either",
+      "foldable-traversable",
+      "lists",
+      "ordered-collections"
+    ],
+    "repo": "https://github.com/LiamGoodacre/purescript-filterable.git",
+    "version": "v3.0.0"
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
@@ -311,6 +366,21 @@
     ],
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "v5.0.0"
+  },
+
+  "foreign-generic": {
+    "dependencies": [
+      "proxy",
+      "exceptions",
+      "effect",
+      "ordered-collections",
+      "foreign-object",
+      "record",
+      "generics-rep",
+      "foreign"
+    ],
+    "repo": "https://github.com/paf31/purescript-foreign-generic.git",
+    "version": "v7.0.0"
   },
   "foreign-object": {
     "dependencies": [
@@ -839,6 +909,16 @@
     "repo": "https://github.com/purescript/purescript-orders",
     "version": "v4.0.0"
   },
+  "pairs": {
+    "dependencies": [
+      "console",
+      "distributive",
+      "foldable-traversable",
+      "quickcheck"
+    ],
+    "repo": "git://github.com/sharkdp/purescript-pairs.git",
+    "version": "v6.0.0"
+  },
   "parallel": {
     "dependencies": [
       "control",
@@ -995,6 +1075,15 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
+    "version": "v1.0.0"
+  },
+  "record-extra": {
+    "dependencies": [
+      "lists",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-record-extra.git",
     "version": "v1.0.0"
   },
   "refs": {
