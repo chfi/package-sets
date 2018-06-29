@@ -9,7 +9,7 @@
       "transformers",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/slamdata/purescript-aff.git",
+    "repo": "https://github.com/paf31/purescript-memoize.git",
     "version": "v5.0.0"
   },
   "aff-coroutines": {
@@ -160,6 +160,17 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v5.0.0"
   },
+  "colors": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "lists",
+      "partial",
+      "strings"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-colors.git",
+    "version": "v5.0.0"
+  },
   "console": {
     "dependencies": [
       "effect",
@@ -253,17 +264,6 @@
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "v6.0.0"
   },
-  "colors": {
-    "dependencies": [
-      "arrays",
-      "integers",
-      "lists",
-      "partial",
-      "strings"
-    ],
-    "repo": "https://github.com/sharkdp/purescript-colors.git",
-    "version": "v5.0.0"
-},
   "drawing": {
     "dependencies": [
       "canvas",
@@ -367,7 +367,6 @@
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "v5.0.0"
   },
-
   "foreign-generic": {
     "dependencies": [
       "proxy",
@@ -692,6 +691,20 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
     "version": "v4.0.0"
+  },
+  "memoize": {
+    "dependencies": [
+      "either",
+      "maybe",
+      "lazy",
+      "integers",
+      "generics-rep",
+      "tuples",
+      "strings",
+      "lists"
+    ],
+    "repo": "https://github.com/slamdata/purescript-aff.git",
+    "version": "v5.0.0"
   },
   "mmorph": {
     "dependencies": [
