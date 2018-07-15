@@ -9,7 +9,7 @@
       "transformers",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/paf31/purescript-memoize.git",
+    "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "v5.0.0"
   },
   "aff-coroutines": {
@@ -703,7 +703,7 @@
       "strings",
       "lists"
     ],
-    "repo": "https://github.com/slamdata/purescript-aff.git",
+    "repo": "https://github.com/paf31/purescript-memoize.git",
     "version": "v5.0.0"
   },
   "mmorph": {
@@ -1271,6 +1271,13 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v3.0.0"
+  },
+  "type-isequal": {
+    "dependencies": [
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-type-isequal.git",
+    "version": "v0.1.0"
   },
   "typelevel-prelude": {
     "dependencies": [
