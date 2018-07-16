@@ -119,6 +119,21 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v3.0.0"
   },
+  "behaviors": {
+    "dependencies": [
+      "event",
+      "effect",
+      "ordered-collections",
+      "filterable",
+      "web-events",
+      "web-html",
+      "web-uievents",
+      "prelude",
+      "nullable"
+    ],
+    "repo": "https://github.com/paf31/purescript-behaviors.git",
+    "version": "v7.0.0"
+  },
   "bifunctors": {
     "dependencies": [
       "newtype",
@@ -309,6 +324,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-enums.git",
     "version": "v4.0.0"
+  },
+  "event": {
+    "dependencies": [
+      "console",
+      "effect",
+      "now",
+      "filterable",
+      "js-timers",
+      "unsafe-reference",
+      "prelude",
+      "nullable"
+    ],
+    "repo": "https://github.com/paf31/purescript-event.git",
+    "version": "v1.2.4"
   },
   "exceptions": {
     "dependencies": [
