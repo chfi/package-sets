@@ -121,15 +121,15 @@
   },
   "behaviors": {
     "dependencies": [
-      "event",
       "effect",
-      "ordered-collections",
+      "event",
       "filterable",
+      "nullable",
+      "ordered-collections",
+      "prelude",
       "web-events",
       "web-html",
-      "web-uievents",
-      "prelude",
-      "nullable"
+      "web-uievents"
     ],
     "repo": "https://github.com/paf31/purescript-behaviors.git",
     "version": "v7.0.0"
@@ -153,11 +153,11 @@
   },
   "canvas": {
     "dependencies": [
+      "arraybuffer-types",
       "effect",
-      "functions",
-      "maybe",
       "exceptions",
-      "arraybuffer-types"
+      "functions",
+      "maybe"
     ],
     "repo": "https://github.com/purescript-web/purescript-canvas.git",
     "version": "v4.0.0"
@@ -282,10 +282,10 @@
   "drawing": {
     "dependencies": [
       "canvas",
-      "lists",
-      "math",
+      "colors",
       "integers",
-      "colors"
+      "lists",
+      "math"
     ],
     "repo": "https://github.com/paf31/purescript-drawing.git",
     "version": "v4.0.0"
@@ -329,12 +329,12 @@
     "dependencies": [
       "console",
       "effect",
-      "now",
       "filterable",
       "js-timers",
-      "unsafe-reference",
+      "now",
+      "nullable",
       "prelude",
-      "nullable"
+      "unsafe-reference"
     ],
     "repo": "https://github.com/paf31/purescript-event.git",
     "version": "v1.2.4"
@@ -398,14 +398,14 @@
   },
   "foreign-generic": {
     "dependencies": [
-      "proxy",
-      "exceptions",
       "effect",
-      "ordered-collections",
+      "exceptions",
+      "foreign",
       "foreign-object",
-      "record",
       "generics-rep",
-      "foreign"
+      "ordered-collections",
+      "proxy",
+      "record"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
     "version": "v7.0.0"
@@ -470,8 +470,8 @@
     "dependencies": [
       "const",
       "exists",
-      "lists",
-      "gen"
+      "gen",
+      "lists"
     ],
     "repo": "https://github.com/ethul/purescript-freeap.git",
     "version": "v5.0.0"
@@ -724,13 +724,13 @@
   "memoize": {
     "dependencies": [
       "either",
-      "maybe",
-      "lazy",
-      "integers",
       "generics-rep",
-      "tuples",
+      "integers",
+      "lazy",
+      "lists",
+      "maybe",
       "strings",
-      "lists"
+      "tuples"
     ],
     "repo": "https://github.com/paf31/purescript-memoize.git",
     "version": "v5.0.0"
@@ -1006,7 +1006,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "profunctor": {
     "dependencies": [
@@ -1307,6 +1307,16 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-type-isequal.git",
     "version": "v0.1.0"
+  },
+  "typelevel": {
+    "dependencies": [
+      "partial",
+      "prelude",
+      "tuples",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/bodil/purescript-typelevel.git",
+    "version": "v4.0.0"
   },
   "typelevel-prelude": {
     "dependencies": [
